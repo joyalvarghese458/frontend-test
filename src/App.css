@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+#main{
+  width: 100%;
+  height: 800px;
+  background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1muhPw.img?w=768&h=384&m=6');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main-head{
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#second{
+  width: 100%;
+  height: 40vh;
+  background-image: url('https://www.wallpapers.net/web/wallpapers/blurred-image-of-a-green-leaf-hd-wallpaper/3840x2160.jpg');
+  background-size: cover;
+  background-size: 100% auto;
+  background-position: center;
 }
+#footer{
+  width: 100%;
+  height: 500px;
+  background-image: url('https://www.tceyecenter.com/wp-content/uploads/2018/04/carrots-705x470.jpg');
+  background-size: 100% auto;
+  background-position: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
